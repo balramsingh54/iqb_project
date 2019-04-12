@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	{% load static %}	
+</head>
+<form action="/b" method="get">
+    {% csrf_token %}
+<body background="{% static '/b.jpg' %}" height="400 " width="700">
+	<center>
+		<img src="{% static '/a.jpg' %}" height="400 " width="700"><br>
+<br>
+
+
+<table bgcolor="yellow">
+		<h1>
+<pre>
+ 	Har Har Mahadev 	
+</pre>
+</table>
+		</h1>
+		<button type="submit">Click Here</button>
+</body>
+</form>
+</html>

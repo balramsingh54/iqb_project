@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="footer, address, phone, icons" />
+
+<title>blog website</title>
+
+<link rel="stylesheet" href="css/demo.css">
+<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>website</title>
+        {% load staticfiles %}  
+    <link rel="stylesheet" href="{% static 'style.css' %}"/>
+    <link rel="stylesheet" href="{% static 'down.css' %}"/> 
+</head>
+<body>
+    	<header>
+                <nav>
+                    <pre><h1>Balram  Kumar  Singh</h1></pre>
+                    <ul id="nav">
+                            <a href=""><input type="button" value="HOME"></a>
+                            <a href="my"><input type="button" value="ABOUT-ME"></a>
+                            <a href="email"><input type="button" value="Email-Send"></a>
+                            <a href="family"><input type="button" value="FAMILY"></a>
+                            <a href="emp"><input type="button" value="GO TO-FORM"></a>
+                    </ul>
+                </nav>
+            </header>
+
+<div class="header">
+  <h1>My Website</h1>
+  <p>A website created by me.</p>
+</div>
+
+<div class="navbar">
+  <a href="#">Login with facebook</a>
+  <a href="#">login with twitter</a>
+  <a href="#">login with github</a>
+  <a href="#" class="right">search</a>
+  <input class="right" type="text" placeholder="subscribe my youtube channel">
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:200px;" background="{% static '/a.jpg' %}" height="200 " width="700">Image</div>
+    <img src="{% static '/b.jpg' %}" height="200 " width="200">
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
+  </div>
+  <div class="main">
+    <h2>TITLE HEADING</h2>
+    <h5>website description,feb 11, 2019</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <img src="{% static '/b.jpg' %}" height="200 " width="200">
+    <img src="{% static '/c.jpg' %}" height="200 " width="200">
+    <img src="{% static '/d.jpg' %}" height="200 " width="200">
+    <img src="{% static '/e.jpg' %}" height="200 " width="200">
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>website description,feb 11, 2019</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text Here .... </p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+        <h3>Company<span>logo</span></h3>
+
+        <p class="footer-links">
+            <a href="">Home</a>
+            ·
+            <a href="blog">Blog</a>
+            ·
+            <a href="#">Pricing</a>
+            ·
+            <a href="#">About</a>
+            ·
+            <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">Company Name &copy; 2019</p>
+    </div>
+
+    <div class="footer-center">
+
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>indergerhi Street</span> Ghaziabad, uttarpradesh</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+91- 7991361809</p>
+        </div>
+
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="www.google.com">google@company.com</a></p>
+        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <span>About the company</span>
+            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="https://github.com/balramsingh54"><i class="fa fa-github"></i></a>
+
+        </div>
+
+    </div>
+
+</footer>
+</div>
+
+</body>
+</html>

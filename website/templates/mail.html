@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>email</title>
+</head>
+<body>
+    <form  action="/email" method="post">
+       {% csrf_token %}
+       {{ fm.as_p }}
+       <br>
+       <button type="submit" name="button">send</button>
+
+    </form>
+</div>
+</body>
+</html>
